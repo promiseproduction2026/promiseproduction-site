@@ -71,7 +71,7 @@ a{color:#1b222c}a:hover{color:#c8372b}
       <div style="display: flex; flex-direction: column; gap: 6px"><label for="f-tel" style="font-size: 14px; font-weight: 500">연락처</label><input id="f-tel" name="연락처" required type="tel" style="font: inherit; min-height: 46px; padding: 0 12px; border: 1px solid #c9c5ba; border-radius: 4px; background: #ffffff"></div>
       <div style="display: flex; flex-direction: column; gap: 6px; grid-column: 1 / -1"><label for="f-type" style="font-size: 14px; font-weight: 500">문의 종류</label><select id="f-type" name="문의 종류" style="font: inherit; min-height: 46px; padding: 0 10px; border: 1px solid #c9c5ba; border-radius: 4px; background: #ffffff"><option>영상 제작</option><option>행사·공연 촬영</option><option>숏폼·SNS</option><option>녹음 스튜디오 예약</option><option>기타</option></select></div>
       <div style="display: flex; flex-direction: column; gap: 6px; grid-column: 1 / -1"><label for="f-msg" style="font-size: 14px; font-weight: 500">내용 (목적·분량·희망 일정)</label><textarea id="f-msg" name="내용" required rows="5" style="font: inherit; padding: 10px 12px; border: 1px solid #c9c5ba; border-radius: 4px; background: #ffffff; resize: vertical"></textarea></div>
-      <button type="submit" style="grid-column: 1 / -1; font: inherit; font-weight: 700; min-height: 50px; border: 0; border-radius: 4px; background: #11161d; color: #ffffff; cursor: pointer">문의 보내기</button>
+      <div style="grid-column: 1 / -1; display:flex; gap:10px; align-items:flex-start; font-size:14px; color:#3a424d"><input id="f-agree" name="개인정보 수집·이용 동의" value="동의함" type="checkbox" required style="margin-top:4px; width:18px; height:18px; flex:none"><label for="f-agree" style="line-height:1.6">[필수] 개인정보 수집·이용에 동의합니다. 수집 항목: 이름·기관명, 연락처, 문의 내용 / 목적: 상담 및 견적 안내 / 보유 기간: 문의 처리 후 1년. <a href="/privacy" target="_blank" style="color:#d0402f">자세히 보기</a></label></div><button type="submit" style="grid-column: 1 / -1; font: inherit; font-weight: 700; min-height: 50px; border: 0; border-radius: 4px; background: #11161d; color: #ffffff; cursor: pointer">문의 보내기</button>
     </form>
   </div>
 </section>
@@ -86,7 +86,7 @@ a{color:#1b222c}a:hover{color:#c8372b}
       <p style="margin: 0; line-height: 1.8">프로미스 프로덕션 · 대표 정대한<br>사업자등록번호 205-13-39809 · 영상 제작<br>향동로 194, 12층 1201-1호</p>
       <p style="margin: 0; line-height: 1.8">프로미스 미디어 컴퍼니 · 대표 정대한<br>사업자등록번호 782-93-01947 · 녹음 스튜디오<br>향동로 194, 12층 1201호</p>
     </div>
-    <span style="color: #6b7482">© 2026 PROMISE PRODUCTION</span>
+    <span style="display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center"><a href="/privacy" style="color:#dfe3e8;text-decoration:none;font-weight:700">개인정보 처리방침</a><a href="/noemail" style="color:#9aa4b1;text-decoration:none">이메일 무단 수집 거부</a><span style="color:#6b7482">© 2026 PROMISE PRODUCTION</span></span>
   </div>
 </footer>
 
